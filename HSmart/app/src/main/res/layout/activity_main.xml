@@ -2,30 +2,43 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center">
 
     <TextView
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="235dp"
-        android:text="HSmart" />
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="HSmart"
+        android:gravity="center"
+        android:textColor="#03A9F4"
+        android:textSize="80dp"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/firstButton"
         android:layout_width="190dp"
         android:layout_height="85dp"
-        android:text="Choose from my favorites" />
+        android:textColor="#3158CE"
+        android:background="#90BFE4"
+        android:text="Choose from my favorites"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/secondButton"
+        android:layout_marginTop="10dp"
         android:layout_width="190dp"
         android:layout_height="85dp"
+        android:textColor="#3158CE"
+        android:background="#90BFE4"
         android:text="Choose a dish" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/thirdButton"
+        android:layout_marginTop="10dp"
         android:layout_width="190dp"
         android:layout_height="85dp"
-        android:text="Choose a cusine" />
+        android:textColor="#3158CE"
+        android:background="#90BFE4"
+        android:text="Choose a cuisine" />
 
 </LinearLayout>
