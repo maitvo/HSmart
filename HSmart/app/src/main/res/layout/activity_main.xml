@@ -25,7 +25,7 @@
         android:textSize="80dp" />
 
     <Button
-        android:id="@+id/firstButton"
+        android:id="@+id/favButton"
         android:layout_width="190dp"
         android:layout_height="85dp"
         android:background="#90BFE4"
@@ -35,22 +35,22 @@
         tools:layout_editor_absoluteY="196dp" />
 
     <Button
-        android:id="@+id/secondButton"
+        android:id="@+id/cuisineButton"
         android:layout_width="190dp"
         android:layout_height="85dp"
         android:background="#90BFE4"
-        android:text="Choose a dish"
+        android:text="Choose a cuisine"
         android:textColor="#3158CE"
         android:layout_marginTop="10dp"
         tools:layout_editor_absoluteX="97dp"
         tools:layout_editor_absoluteY="306dp" />
 
     <Button
-        android:id="@+id/thirdButton"
+        android:id="@+id/dishButton"
         android:layout_width="190dp"
         android:layout_height="85dp"
         android:background="#90BFE4"
-        android:text="Choose a cuisine"
+        android:text="Choose a dish"
         android:textColor="#3158CE"
         android:layout_marginTop="10dp"
         tools:layout_editor_absoluteX="97dp"
